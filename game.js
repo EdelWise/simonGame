@@ -20,7 +20,7 @@ const nextSequence = function () {
 
   //random numbers
 
-  const randomNumber = Math.trunc(Math.random() * 3);
+  const randomNumber = Math.trunc(Math.random() * 4);
   const randomChosenColour = buttonColours[randomNumber];
   //reset
   userClickedPattern = [];
